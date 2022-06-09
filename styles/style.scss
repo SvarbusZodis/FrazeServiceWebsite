@@ -1,0 +1,12 @@
+button {
+    border: 1px dashed darkmagenta;
+    border-radius: 20px;
+    background-color: darkmagenta;
+    color: white;
+
+
+    &:hover {
+        cursor: pointer;
+        background-color: lighten(darkmagenta, 50px);
+    }
+}
